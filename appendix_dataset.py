@@ -98,7 +98,7 @@ class Appendix_Dataset_3slice(Dataset):
         self.split = split
         self.data_dir = base_dir
         self.images, self.labels = get_file_path(base_dir, split)
-        self.low, self.high = wl - ww / 2, wl + ww / 2  # 计算窗位和大小
+        self.low, self.high = wl - ww / 2, wl + ww / 2  # calculate window level and window width
 
     def __len__(self):
         return len(self.images)
