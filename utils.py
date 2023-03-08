@@ -122,7 +122,7 @@ class DiceLoss(nn.Module):
         return loss / self.n_classes
 
 
-# LGEM损失函数
+# LSS loss function
 class LSS_LOSS(nn.Module):
     def __init__(self, H: int = 30, Q: float = 0.01, gamma: float = 0.1, net=None,
                  device: torch.device = torch.device('cuda')):
