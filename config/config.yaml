@@ -1,0 +1,25 @@
+device: 'cuda'
+output: 'outputs'
+root_path: 'E:/appendix_test'
+epochs: 200
+num_classes: 2
+log_dir: 'logs'
+model_name: 'LSSED'
+img_size: [ 224,224 ]
+batch_size: 2
+num_workers: 0
+seed: 1234
+patch_size: 4
+lr: 1e-4
+optimizer: 'AdamW'
+scheduler: 'step_lr'
+early_stop_patience: 20
+checkpoint_epoch: 1
+num_gpus: 1
+gpu_num: '0'
+pretrained: True
+wl: 30
+ww: 250
+H: 1
+Q: 0.01
+gamma: 0.03
