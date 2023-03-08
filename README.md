@@ -1,8 +1,8 @@
 
-# LSSED: A ROBUST SEGMENTATION NETWORK FOR INFLAMED APPENDIX FROM CT IMAGES, ICASSP 2023
+# LSSED: A robust segmentation network for inflamed appendix from CT images, ICASSP 2023
 by Wing W. Y. Ng, Peixin Zheng, Ting Wang, Jianjun Zhang, Yinhao Liang, Hui Zhou, Dan Liang, Guangming Li, Xinhua Wei.
 ## Introduction
-This respository is for our ICASSP 2023 Paper: A ROBUST SEGMENTATION NETWORK FOR INFLAMED APPENDIX FROM CT IMAGES.
+This respository is for our ICASSP 2023 Paper: 'A robust segmentation network for inflamed appendix from CT images'.
 ## Environment:
 > This code tested under python3. 
 > Check code environment "requirements.txt"
