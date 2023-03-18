@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Describe : vgg11 as Backbone with deform convolution
+# @Describe : vgg11 as Backbone
 # @Time : 2022/03/26 21:49
 # @Author : zpx
 # @File : network.py
