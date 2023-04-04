@@ -57,7 +57,7 @@ class BasicConv2d(nn.Module):
         return x
 
 
-class ResPath(nn.Module):
+class RDPath(nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
         self.res = nn.Conv2d(in_channels, out_channels, 1)
@@ -99,10 +99,10 @@ class LSSED(nn.Module):
         self.dec3 = DecoderBlockV2(1024, 256, 256)
         self.dec2 = DecoderBlockV2(512, 128, 128)
         self.dec1 = nn.Conv2d(256, 64, kernel_size=1)
-        self.res1 = ResPath(128, 128)
-        self.res2 = ResPath(256, 256)
-        self.res3 = ResPath(512, 512)
-        self.res4 = ResPath(512, 512)
+        self.res1 = RDPath(128, 128)
+        self.res2 = RDPath(256, 256)
+        self.res3 = RDPath(512, 512)
+        self.res4 = RDPath(512, 512)
         self.seg_head = nn.Conv2d(in_channels=64, out_channels=num_classes, kernel_size=1)
 
     def forward(self, inputs):
