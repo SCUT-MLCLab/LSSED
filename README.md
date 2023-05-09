@@ -10,14 +10,14 @@ This respository is for our ICASSP 2023 Paper: 'A robust segmentation network fo
 1. Train stage
 > python train.py
 ## Citation
-> @INPROCEEDINGS{10096171, \\
-> author={Ng, Wing W Y. and Zheng, Peixin and Wang, Ting and Zhang, Jianjun and Liang, Yinhao and Zhou, Hui and Liang, Dan and Li, Guangming and Wei, Xinhua},\\
-> booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, \\
-> title={LSSED: A Robust Segmentation Network for Inflamed Appendix from CT Images}, \\
-> year={2023}, \\
-> volume={}, \\
-> number={}, \\
-> pages={1-5}, \\
+> @INPROCEEDINGS{10096171, <br />
+> author={Ng, Wing W Y. and Zheng, Peixin and Wang, Ting and Zhang, Jianjun and Liang, Yinhao and Zhou, Hui and Liang, Dan and Li, Guangming and Wei, Xinhua}, <br />
+> booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, <br />
+> title={LSSED: A Robust Segmentation Network for Inflamed Appendix from CT Images}, <br />
+> year={2023}, <br />
+> volume={}, <br />
+> number={}, <br />
+> pages={1-5}, <br />
 > doi={10.1109/ICASSP49357.2023.10096171}}
 ## Questions
 Please concat with 'cspeixin.zheng@mail.scut.edu.cn'
